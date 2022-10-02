@@ -6,6 +6,9 @@
         width: 85%;
         margin: 70px auto;
     }
+    @include responsive(sm) {
+        width: 94%;
+    }
     .h3 {
         display: flex;
         h1 {
@@ -21,9 +24,12 @@
             padding: 10px 25px;
             margin: 20px 0;
             box-shadow: 0 0 10px #9c9898;
+            @include responsive(sm) {
+                padding: 10px 20px;
+            }
             &-left {
                 .guide, p{
-                    margin: 10px 0;
+                    margin: 10px 0;      
                 }
                 .cv {
                     display: flex;
@@ -31,6 +37,11 @@
                 }
                 .benefit span {
                     margin-right: 10px;
+                }
+                h2 {
+                    @include responsive(sm) {
+                        font-weight: lighter
+                    }
                 }
             }
             &-right {

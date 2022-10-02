@@ -142,6 +142,9 @@ nav .nav-left ul {
 nav .nav-left ul a {
   margin: 0 15px 0 0;
 }
+nav .nav-left ul .active {
+  border-bottom: 4px solid #71aaff;
+}
 nav .nav-right {
   display: flex;
   align-items: center;
