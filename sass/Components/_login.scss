@@ -1,0 +1,112 @@
+@import"../Mixin/responsive";
+.sign-up{
+    display: flex;
+}
+.img {
+    background: black;
+    flex: 0.6;
+    position: relative;
+    @include responsive(sm) {
+        display: none;
+    }
+    @include responsive(md) {
+        flex: 1;
+        height: 89vh;
+    }
+    .img-bg {
+        height: 100%;
+        width: 100%;
+        opacity: 0.6;
+    }
+}
+.img-side {
+    position: absolute;
+    top: 30%;
+    bottom: 0;
+    left: 30%;
+    right: 25%;
+    h2 {
+        text-align: center;
+    }
+    img {
+        max-width: 200px;
+        border-radius: 50%;
+    }
+}
+
+
+.form-container{
+    flex: 1;
+    @include flex;
+    justify-content: center;
+    padding: 20px;
+    @include responsive(md) {
+        flex: 1;
+    }
+}
+form{
+    background-color: #ffffff;
+    border-radius: $form-radius;
+    width: 60%;
+    padding: 10px 30px;
+    box-shadow: 0 0 10px #9c9898;
+    @include responsive(md) {
+        width: 100%;
+    }
+    h5, h1, p {
+        text-align: center;
+    }
+    h5 {
+        margin: 10px 0 20px 0;  
+        cursor: pointer;
+    }
+    .btn2 {
+        padding: 8px 20px;
+    }
+}
+input[type="text"],
+input[type="tel"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #d3cdcd;
+    outline: none;
+    box-sizing: border-box;
+}
+.names {
+    display: flex;
+    gap: 20px;
+}
+.first-name,
+.last-name {
+    width: 100%;
+}
+
+.email,
+.phone,
+.password,
+.verify,
+.check {
+    margin-top: 10px;
+}
+.in-btn{
+    @include flex;
+    gap: 10px;
+    justify-content: center;
+    button {
+        margin: 0;
+    }
+}
+hr{
+    border: 1px solid #000000;
+    margin: 20px 0;
+}
+.check {
+    @include flex;
+}
+.up{
+    @include flex;
+    justify-content: center;
+}

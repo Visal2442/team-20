@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>sign up</title>
+    <link href="https://fonts.googleapis.com/css2?family=Moul&family=Signika+Negative:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/cv.min.css">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <img src="../IMAGE/logo (1).png" alt="findjob" width="130">
+            <ul>
+                <li><a href="../index.html">home</a></li>
+                <li><a href="cv.html">cv</a></li>
+                <li><a href="job.html">jobs</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <select name="language" id="language">
+                <option value="Language" selected disabled>Language</option>
+                <option value="Khmer">Khmer</option>
+                <option value="English">English</option>
+            </select>
+            <i class="fa fa-bars"></i>
+            <i class="fa fa-user"></i>
+            <div class="group-btn">
+                <button type="button" class="btn1"><a href="login.html">Sign In</a></button>
+                <button type="button" class="btn2"><a href="singup.html">Sign Up</a></button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="sign-up">   
+        <div class="img">
+            <img src="../IMAGE/young-business-woman-working-her-desk-with-laptop_23-2149206568.jpg" alt="" class="img-bg"> 
+            <div class="img-side">
+                <img src="../IMAGE/logo (1).png" alt="">
+                <h2>Easy to find job</h2>
+            </div>
+        </div>
+        <div class="form-container">
+            <form action="../index.html">
+                <h1>Curriculum Vitae</h1>
+                <div class="names">
+                    <div class="first-name">
+                    <label for="#">First Name</label>
+                        <input type="text" placeholder="First Name"> 
+                    </div>
+                    <div class="last-name">
+                        <label for="#">First Name</label>
+                        <input type="text" placeholder="First Name"> 
+                    </div>
+                </div>
+                <div class="email">
+                    <label for="email">Email Address<label>
+                    <input type="email" placeholder="Email address">
+                </div>
+                <div class="phone">
+                <label for="#">Phone<label>
+                    <input type="tel" placeholder="Phone">  
+                </div>
+                <div class="password">
+                    <label for="#">Password<label>
+                    <input type="password" placeholder="Password">
+                </div>
+                <div class="file">
+                    <label for="#">Upload CV</label>
+                    <input type="file">
+                </div>
+                <div class="select">
+                    <label for="#">Your Location</label>
+                    <select name="location" id="location">
+                        <option value="Location" selected>Location</option>
+                        <option value="location">komport</option>
+                        <option value="location">phom penh</option>
+                    </select>
+                </div>
+                <div class="up">
+                    <button class="btn2">Submit</button> 
+                </div>
+                <h5>Forgot password ?</h5>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

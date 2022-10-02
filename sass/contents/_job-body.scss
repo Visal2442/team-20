@@ -1,0 +1,15 @@
+
+@import"../Components/nav";
+@import"../Components/job-search";
+@import"../Components/all-job";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: $bgColor;
+    font-family: 'Signika Negative', sans-serif;
+}

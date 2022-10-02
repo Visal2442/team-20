@@ -1,0 +1,44 @@
+
+.btn1 {
+    background: $mainColor;
+    border: none;
+    border-radius: 15px;
+    padding: 8px;
+    font-family: 'Signika Negative', sans-serif;
+    &:hover {
+        opacity: 0.7;
+        cursor: pointer;
+    }
+}
+.btn2 {
+    @extend .btn1;
+    background: none;
+    border: 1px solid $mainColor;
+    &:hover {
+        background: $mainColor;
+    }
+}
+select {
+    border: none;
+    outline: none;
+}
+
+.searchs {
+    position: relative;
+    i {
+        background: #808080;
+        padding: 12px;
+        left: 74%;
+        bottom: 0;
+        cursor: pointer;
+        position: absolute;
+    }
+}
+.back {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-top: 10px;
+    font-size: large;
+}
+

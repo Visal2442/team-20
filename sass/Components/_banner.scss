@@ -1,0 +1,66 @@
+@import"../Mixin/responsive";
+
+.banner {
+    background: $mainColor;
+    @include flex;
+    flex: 1;
+    padding-left: 20px;
+    
+    @include responsive(sm) {
+        flex-direction: column-reverse;
+    }
+    @include responsive(md) {
+        padding: 20px;
+    }
+    &-left {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-left: $mainMargin;
+        @include responsive(sm) {
+            margin-left: 15px;
+        }
+        h1 {
+            span {
+                color: white;
+            }
+        }
+    }
+    input[type="search"] {
+        width: 80%;
+        border: none;
+        border-radius: 5px;
+        outline: none;
+        margin-top: 20px;
+        padding: 12px;
+    }
+    img {
+        @include responsive(md) {
+            width: 45%;
+        }
+        @include responsive(sm) {
+            width: 100%;
+        }
+    }
+}
+
+.search {
+    @extend .searchs;
+}
+
+.popular {
+    @include flex;
+    gap: 15px;
+    .pop {
+        background: $bgColor;
+        border-radius: $border-radius;
+        padding: 5px 10px;
+        cursor: pointer;
+        @include responsive(sm) {
+            &:nth-child(2) {
+                display: none;
+            }
+            margin-top: 5px;
+        }
+    }
+}

@@ -1,0 +1,52 @@
+
+.all-job {
+    width: 90%;
+    margin: 80px auto;
+    @include responsive(md) {
+        width: 85%;
+        margin: 70px auto;
+    }
+    .h3 {
+        display: flex;
+        h1 {
+            border-radius: $border-radius;
+        }
+    }
+    .filter-container {
+        .filter {
+            background: #ffffff;
+            @include flex;
+            justify-content: space-between;
+            border-radius: $form-radius;
+            padding: 10px 25px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px #9c9898;
+            &-left {
+                .guide, p{
+                    margin: 10px 0;
+                }
+                .cv {
+                    display: flex;
+                    gap: 20px;
+                }
+                .benefit span {
+                    margin-right: 10px;
+                }
+            }
+            &-right {
+                @include flex;
+                .company {
+                    .more {
+                        margin: 17px 0;
+                    }
+                }
+            }
+            &-img {
+                margin-left: 50px;
+                @include responsive(md) {
+                    display: none;
+                }
+            }
+        }
+    }
+}
