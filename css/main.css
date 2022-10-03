@@ -60,6 +60,11 @@ select {
     padding: 20px;
   }
 }
+@media screen and (max-width: 992px) {
+  .banner {
+    padding: 25px;
+  }
+}
 .banner-left {
   display: flex;
   flex-direction: column;
@@ -82,9 +87,14 @@ select {
   margin-top: 20px;
   padding: 12px;
 }
+@media screen and (max-width: 992px) {
+  .banner img {
+    width: 46%;
+  }
+}
 @media screen and (max-width: 768px) {
   .banner img {
-    width: 45%;
+    width: 43%;
   }
 }
 @media screen and (max-width: 576px) {
@@ -129,7 +139,7 @@ select {
   grid-template-columns: repeat(4, auto);
   gap: 15px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .group-card {
     grid-template-columns: repeat(2, auto);
     gap: 25px;
@@ -151,9 +161,14 @@ select {
 .card img {
   border-radius: 10px 10px 0 0;
 }
+@media screen and (max-width: 992px) {
+  .card img {
+    width: 340px;
+  }
+}
 @media screen and (max-width: 768px) {
   .card img {
-    width: 300px;
+    width: 320px;
   }
 }
 .card-body {
@@ -220,7 +235,7 @@ select {
   opacity: 0.6;
   cursor: pointer;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .footer .about-us {
     display: none;
   }
@@ -250,7 +265,7 @@ select {
   margin: 0;
   color: #ffffff;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .download .app p:first-child {
     display: none;
   }

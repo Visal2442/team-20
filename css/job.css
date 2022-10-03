@@ -370,7 +370,7 @@ body {
   opacity: 0.6;
   cursor: pointer;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .footer .about-us {
     display: none;
   }
@@ -400,7 +400,7 @@ body {
   margin: 0;
   color: #ffffff;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .download .app p:first-child {
     display: none;
   }
