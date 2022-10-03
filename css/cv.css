@@ -164,14 +164,14 @@ hr {
   flex-direction: column;
 }
 .select select {
-  width: 20%;
+  width: 30%;
   border: 1px solid #d3cdcd;
   padding: 10px;
   border-radius: 10px;
 }
 @media screen and (max-width: 992px) {
   .select select {
-    width: 40%;
+    width: 33%;
   }
 }
 

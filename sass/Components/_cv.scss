@@ -106,12 +106,12 @@ hr{
     display: flex;
     flex-direction: column;
     select {
-        width: 20%;
+        width: 30%;
         border: 1px solid #d3cdcd;
         padding: 10px;
         border-radius: 10px;
         @include responsive(lg) {
-            width: 40%;
+            width: 33%;
         }
     }
 }
