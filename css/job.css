@@ -197,18 +197,24 @@ nav .nav-right i {
     width: 85%;
   }
 }
+@media screen and (max-width: 576px) {
+  .job-search {
+    width: 94%;
+    margin: 30px auto 0 auto;
+  }
+}
 .job-search .search i {
   left: 96%;
   padding: 12px 15px;
 }
 @media screen and (max-width: 768px) {
   .job-search .search i {
-    left: 93%;
+    left: 92%;
   }
 }
 @media screen and (max-width: 576px) {
   .job-search .search i {
-    left: 85%;
+    left: 89%;
   }
 }
 .job-search .search input[type=search] {
@@ -229,8 +235,13 @@ nav .nav-right i {
   margin-top: 4px;
 }
 @media screen and (max-width: 576px) {
-  .job-search .choice .term, .job-search .choice .salary {
+  .job-search .choice .term {
     display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .job-search .choice .salary select, .job-search .choice .position select {
+    width: 80%;
   }
 }
 
@@ -242,6 +253,11 @@ nav .nav-right i {
   .all-job {
     width: 85%;
     margin: 70px auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  .all-job {
+    width: 94%;
   }
 }
 .all-job .h3 {
@@ -260,6 +276,11 @@ nav .nav-right i {
   margin: 20px 0;
   box-shadow: 0 0 10px #9c9898;
 }
+@media screen and (max-width: 576px) {
+  .all-job .filter-container .filter {
+    padding: 10px 20px;
+  }
+}
 .all-job .filter-container .filter-left .guide, .all-job .filter-container .filter-left p {
   margin: 10px 0;
 }
@@ -267,8 +288,23 @@ nav .nav-right i {
   display: flex;
   gap: 20px;
 }
+@media screen and (max-width: 576px) {
+  .all-job .filter-container .filter-left .cv {
+    gap: 10px;
+  }
+}
 .all-job .filter-container .filter-left .benefit span {
   margin-right: 10px;
+}
+@media screen and (max-width: 576px) {
+  .all-job .filter-container .filter-left h2 {
+    font-weight: lighter;
+  }
+}
+@media screen and (max-width: 576px) {
+  .all-job .filter-container .filter-left .guide span:nth-child(3) {
+    display: none;
+  }
 }
 .all-job .filter-container .filter-right {
   display: flex;

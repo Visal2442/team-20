@@ -12,6 +12,9 @@
     @include responsive(md) {
         padding: 20px;
     }
+    @include responsive(lg) {
+        padding: 25px;
+    }
     &-left {
         display: flex;
         flex-direction: column;
@@ -35,8 +38,11 @@
         padding: 12px;
     }
     img {
+        @include responsive(lg) {
+            width: 46%;
+        }
         @include responsive(md) {
-            width: 45%;
+            width: 43%;
         }
         @include responsive(sm) {
             width: 100%;
