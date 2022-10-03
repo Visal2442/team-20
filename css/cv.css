@@ -164,7 +164,7 @@ hr {
   flex-direction: column;
 }
 .select select {
-  width: 30%;
+  width: 25%;
   border: 1px solid #d3cdcd;
   padding: 10px;
   border-radius: 10px;
