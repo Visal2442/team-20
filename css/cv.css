@@ -171,7 +171,7 @@ hr {
 }
 @media screen and (max-width: 992px) {
   .select select {
-    width: 33%;
+    width: 35%;
   }
 }
 
