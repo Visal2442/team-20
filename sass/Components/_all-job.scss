@@ -34,6 +34,9 @@
                 .cv {
                     display: flex;
                     gap: 20px;
+                    @include responsive(sm) {
+                        gap: 10px;
+                    }
                 }
                 .benefit span {
                     margin-right: 10px;
@@ -41,6 +44,11 @@
                 h2 {
                     @include responsive(sm) {
                         font-weight: lighter
+                    }
+                }
+                .guide span:nth-child(3) {
+                    @include responsive(sm) {
+                        display: none;
                     }
                 }
             }

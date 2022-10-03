@@ -11,16 +11,20 @@
     @include responsive(md) {
         width: 85%;
     }
+    @include responsive(sm) {
+        width: 94%;
+        margin: 30px auto 0 auto;
+    }
     .search {
         @extend .searchs;
         i {
             left: 96%;
             padding: 12px 15px;
             @include responsive(md) {
-                left: 93%;
+                left: 92%;
             }
             @include responsive(sm) {
-                left: 85%;
+                left: 89%;
             }
         }
         input[type="search"] {
@@ -40,9 +44,14 @@
             padding: 10px;
             margin-top: 4px;
         }
-        .term, .salary {
+        .term {
             @include responsive(sm) {
                 display: none;
+            }
+        }
+        .salary select, .position select{
+            @include responsive(sm) {
+                width: 80%;
             }
         }
     }
