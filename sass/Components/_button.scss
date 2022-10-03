@@ -42,3 +42,33 @@ select {
     font-size: large;
 }
 
+
+.change-btn {
+    margin-bottom: 20px;
+    ul {
+        list-style: none;
+        @include flex;
+        justify-content: center;
+        li {
+            padding: 0 15px;
+            cursor: pointer;
+            &:hover {
+                color: $mainColor;
+            }
+            button {
+                border: none;
+                font-size: x-large;
+                background: none;
+                cursor: pointer;
+                font-family: 'Signika Negative', sans-serif;
+                &:hover {
+                    color: $mainColor;
+                }
+            }
+            .active {
+                color: $mainColor;
+            }
+        }
+    }
+}
+

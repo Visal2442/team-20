@@ -43,6 +43,36 @@ select {
   font-size: large;
 }
 
+.change-btn {
+  margin-bottom: 20px;
+}
+.change-btn ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.change-btn ul li {
+  padding: 0 15px;
+  cursor: pointer;
+}
+.change-btn ul li:hover {
+  color: #71aaff;
+}
+.change-btn ul li button {
+  border: none;
+  font-size: x-large;
+  background: none;
+  cursor: pointer;
+  font-family: "Signika Negative", sans-serif;
+}
+.change-btn ul li button:hover {
+  color: #71aaff;
+}
+.change-btn ul li .active {
+  color: #71aaff;
+}
+
 .banner {
   background: #71aaff;
   display: flex;
@@ -314,6 +344,36 @@ select {
   padding: 0;
   margin-top: 10px;
   font-size: large;
+}
+
+.change-btn {
+  margin-bottom: 20px;
+}
+.change-btn ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.change-btn ul li {
+  padding: 0 15px;
+  cursor: pointer;
+}
+.change-btn ul li:hover {
+  color: #71aaff;
+}
+.change-btn ul li button {
+  border: none;
+  font-size: x-large;
+  background: none;
+  cursor: pointer;
+  font-family: "Signika Negative", sans-serif;
+}
+.change-btn ul li button:hover {
+  color: #71aaff;
+}
+.change-btn ul li .active {
+  color: #71aaff;
 }
 
 nav {
