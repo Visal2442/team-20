@@ -78,6 +78,7 @@ select {
 }
 .img-side h2 {
   text-align: center;
+  color: #ffffff;
 }
 .img-side img {
   max-width: 200px;
