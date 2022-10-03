@@ -2,14 +2,4 @@
 @import"../Components/card";
 @import"../Components/footer";
 @import"../Components/nav";
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background: $bgColor;
-    font-family: 'Signika Negative', sans-serif;
-}
+@import"../Variable/body";
