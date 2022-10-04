@@ -1,7 +1,7 @@
 
 .all-job {
     width: 90%;
-    margin: 80px auto;
+    margin: 80px auto 60px auto;
     @include responsive(md) {
         width: 85%;
         margin: 70px auto;
