@@ -452,6 +452,10 @@ body {
   font-family: 'Signika Negative', sans-serif;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .footer-container {
   background: gray;
   color: #ffffff;

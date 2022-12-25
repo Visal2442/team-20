@@ -547,6 +547,10 @@ body {
   font-family: 'Signika Negative', sans-serif;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .sign-up {
   display: flex;
 }
@@ -900,6 +904,10 @@ nav .nav-right i {
 body {
   background: #e3e4e6;
   font-family: 'Signika Negative', sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .btn1, .btn2 {
@@ -1272,6 +1280,10 @@ body {
   font-family: 'Signika Negative', sans-serif;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .btn1, .btn2 {
   background: #71aaff;
   border: none;
@@ -1619,5 +1631,9 @@ hr {
 body {
   background: #e3e4e6;
   font-family: 'Signika Negative', sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 /*# sourceMappingURL=main.css.map */

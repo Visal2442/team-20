@@ -430,4 +430,8 @@ body {
   background: #e3e4e6;
   font-family: 'Signika Negative', sans-serif;
 }
+
+body::-webkit-scrollbar {
+  display: none;
+}
 /*# sourceMappingURL=login.css.map */
